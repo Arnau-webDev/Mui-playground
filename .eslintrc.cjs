@@ -39,6 +39,7 @@ module.exports = {
 		],
 		'react/react-in-jsx-scope': 'off',
 		'@typescript-eslint/no-unused-vars': 'warn',
-		'max-len': ['warn', { 'code': 175 }]
+		'max-len': ['warn', { 'code': 175 }],
+		'@typescript-eslint/no-explicit-any': 'warn'
 	}
 };
