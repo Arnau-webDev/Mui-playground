@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Stack, TextField, InputAdornment } from '@mui/material';
 
-export const MuiTextField = () => {
+const MuiTextField = () => {
 	const [value, setValue] = useState('');
 
 	const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -49,3 +49,5 @@ export const MuiTextField = () => {
 		</Stack>
 	);
 };
+
+export default MuiTextField;
