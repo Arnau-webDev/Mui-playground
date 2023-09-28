@@ -25,7 +25,7 @@ const MuiLayout = () => {
 					bgcolor='success.light'
 					p={2}></Box>
 			</Stack>
-			<Grid rowSpacing={2} columnSpacing={1} container my={4}>
+			<Grid rowSpacing={2} columnSpacing={2} container my={4}>
 				<Grid item xs={6}>
 					<Box p={2} bgcolor='primary.light'>
             Item 1
