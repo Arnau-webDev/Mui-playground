@@ -22,7 +22,7 @@ const MuiAutocomplete = () => {
 				options={skills}
 				renderInput={params => <TextField {...params} label='Skills' />}
 				value={value}
-				onChange={(event: React.FormEvent, newValue: string | null) => {
+				onChange={(_event: React.FormEvent, newValue: string | null) => {
 					setValue(newValue);
 				}}
 			/>
